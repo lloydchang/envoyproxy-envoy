@@ -12,7 +12,7 @@ on:
     - main
     - release/v*
   schedule:
-  - cron: '30 6 * * *'
+#  - cron: '30 6 * * *'
 
 concurrency:
   group: |
